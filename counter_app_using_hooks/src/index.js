@@ -5,7 +5,7 @@ import './index.css';
 function Counter() {
   const [counter, setCounter] = useState(0);
 
-  function increment() {
+  const increment = ()=> {
     setCounter(counter+1);
   }
   return <div>
