@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 let counter = 0;
 function show() {
   counter++;
-  const el = <p>{counter}</p>;
+  const el = <p>Hello {counter}</p>;
   const root = ReactDOM.createRoot(document.getElementById('root'));
   root.render(
     el
